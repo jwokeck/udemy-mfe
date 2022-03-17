@@ -1,5 +1,11 @@
 import React from 'react';
+import MarketingApp from './components/MarketingApp';
 
 export default () => {
-	return <div>Hello from container</div>;
+	return (
+		<div>
+			<h1>Hello from container</h1>
+			<MarketingApp />
+		</div>
+	);
 };
